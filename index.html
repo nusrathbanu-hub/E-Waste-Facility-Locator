@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Facility Locator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="landing">
+    <header>
+        <h2 class="logo">E-Waste Facility Locator</h2>
+        
+        
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="Location.html">Location</a>
+            <a href="Login.html">Register</a>
+            <a href="chatbot.html">Help</a>
+            <button class="btnlogin-popup">Login</button>
+
+        </nav>
+    </header>
+
+<div class="wrapper" id="loginpage">
+        <span id="icon-close"><ion-icon name="close"></ion-icon></span>
+        <div class="form-boxlogin">
+            <h2>Login</h2>
+            <form action="about.html" method="post">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input type="checkbox">
+                    Remember me</label>
+                    <a href="#">Forget Password?</a>
+                </div>
+               <button type="submit" id="demo" onclick="print()">Login</button>
+               <div class="login-register">
+                   <p>Don't have an account?
+               <a href="Login.html" class="register-link">Register</a></p>
+           </div>
+
+
+
+               </form>
+           </div>
+</div>
+</form>
+
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+
+<script>
+/* document.getElementById('icon-close').addEventListener('click',function() {
+        document.getElementById('loginpage').style.display='none';
+    });
+*/
+    var x=document.getElementById("btn").addEventListener("click",print);
+
+    function print(){
+        var txt;
+        if(confirm("Welcome to our E-waste Facility Locator! Easily find nearby drop-off points to safely recycle your electronic waste and protect the environment"))
+    {
+            txt="thank you";
+        }
+    }
+    
+</script>
+
+</body>
+</html>
