@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+    <link rel="stylesheet" href="location.css">
+    <script src="location.js"></script>
+</head>
+
+<body>
+    <div class="landing">
+        <header>
+            <h2 class="logo">E-Waste Locator</h2>
+        
+
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="service.html">Services</a>
+                <a href="location.html">Location</a>
+                <a href="Login.html">Register</a>
+                <button class="btnlogin-popup">Login</button>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="selectlocation">
+        <label for="country">Country:</label>
+        <select id="country" name="country" onchange="populateStates()">
+            <option value="">--Select Country--</option>
+            <option value="IN">India</option>
+            <option value="AS">Australia</option>
+            <option value="Jp">Japan</option>
+            <option value="PK">Pakistan</option>
+        </select>
+
+        <label for="state">State:</label>
+        <select id="state" name="state" onchange="populateDistricts()">
+            <option value="">--Select State--</option>
+            <option value="">Tamil Nadu</option>
+            <option value="">Karnataka</option>
+            <option value="">Kerala</option>
+            <option value="">Punjab</option>
+            
+         </select>
+
+        <label for="district">District:</label>
+        <select id="district" name="district">
+            <option value="">--Select District--</option>
+            <option value="">Erode</option>
+            <option value="">Coimbatore</option>
+            <option value="">Chennai</option>
+            <option value="">Madurai</option>
+
+        </select>
+
+        <button onclick="performSearch()">Search</button>
+    </div>
+
+    <div class="iframe">
+        <iframe id="map" src=""></iframe>
+    </div>
+
+    <div id="results" class="div"></div>
+
+    
+
+
+</body>
+
+</html>

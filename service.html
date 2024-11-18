@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Facility Locator</title>
+    <link rel="stylesheet" href="service.css">
+<style>
+    .message span{
+        color: blue;
+        font-size: 20px;
+        padding-left: 5px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+
+    }
+    </style>
+</head>
+<body>
+    <div class="landing">
+        
+        <header>
+            <h2 class="logo">E-Waste Facility Locator</h2>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="Location.html">Location</a>
+        <a href="Login.html">Register</a>
+        <button class="btnlogin-popup">Login</button>
+
+    </nav>
+    
+</header>
+<div class="content">
+    <h1>Our Services</h1>
+        <div class="row">
+            <div class="box">
+                <img src="C:\Users\Admin\Downloads\images1.jpeg" alt="image">
+                <h3>Services Overview</h3>
+                <button class="btn" onclick="openpopup()">View More</button>
+            </div>
+        <div class="box">
+            <img src="C:\Users\Admin\Downloads\image2.png" alt="">
+            <h3>How its work</h3>     
+            <button class="btn" onclick="print()">View More</button>
+        </div>
+
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfxqPbbOxKSmw1z4l3SaVQ6fNJcDYUUnFTEQ&s" style="margin:20px;">
+            <h3>Key Freatures</h3>
+            <button class="btn" onclick="service()">View More</button>
+        </div>
+    
+            <div class="box">
+                <img src="C:\Users\Admin\Downloads\images4.jpg" alt="">
+                <h3>E-Waste Disposal</h3>
+                <button class="btn" onclick="my_function()">View More</button>
+            </div>
+            <div class="box">
+                <img src="C:\Users\Admin\Downloads\image5.jpg" alt="">
+                <h3>E-Waste Recycling</h3>
+                <button class="btn" onclick="ewaste()">View More</button>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Admin\Downloads\image6.jpg" alt="">
+                <h3> E-waste Collection</h3>
+                <button class="btn" onclick="disposal()">View More</button>
+            </div>
+
+    
+        </div>
+        </div>
+        
+        
+
+        <div class="message">
+        <div class="popup" id="popup">
+            <h2>Services Overview</h2>
+            <p><span>User Authentication:</span>Users can log in with their email ID and password for personalized access<br>
+                     <span>About page:</span>briefly explain the projects goal and e-waste disposal options in erode and coimbatore
+              </p>   
+        <button type="button" onclick="closepopup()">OK</button>
+                </div>
+
+            <div class="popup" id="popup1">
+                <h2>How Its Works</h2>
+                <p>Enable users to search for e-waste disposal within Tamil Nadu,especially in Erode and Coimbatore using location-based search</p>
+                <button type="button" onclick="display()">OK</button>
+                    </div>
+
+        <div class="popup" id="popup2">
+            <h2>Key Features</h2>
+             <p>Toxicity and Environmental Impact: E-waste contains hazardous materials like lead, mercury, and cadmium, which can leach into soil and water, causing environmental damage and health risks.</p>   
+            <button type="button" onclick="viewmore()">OK</button>
+             </div>
+
+             <div class="popup" id="popup3">
+                <h2>E-Waste Disposal</h2>
+                <p>E-waste disposal refers to the proper handling and disposal of electronic devices and components
+                    that are no longer useful, such as old computers, mobile phones,  and other electronic gadgets</p>
+                <button type="button" onclick="my_function1()">OK</button>
+            </div>
+            <div class="popup" id="popup4">
+                <h2>E-waste Recycling</h2>
+                <p>E-waste recycling involves recovering valuable materials like metals and plastics from discarded electronics, 
+                    reducing environmental harm and conserving resources.
+                <button type="button" onclick="recycling()">OK</button>
+            </div>
+            <div class="popup" id="popup5">
+                <h2>E-Waste Collection</h2>
+                <p><span>Booking System:</span>Enable users to schedule pickups directly on your platform,allowing for door-to-door e-waste collection
+
+               </p>
+                     <button type="button" onclick="Collection()">OK</button>
+              </div>
+
+
+
+
+            
+            </div>
+    </div>
+    <script src="service.js"></script>
+
+
+    
+    </body>
+    </html>
