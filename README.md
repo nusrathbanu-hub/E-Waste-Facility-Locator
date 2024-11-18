@@ -15,4 +15,8 @@ Our E-Waste Management website is dedicated to promoting sustainable practices a
 
 <h2><b>Location Page</b></h2>
 
+![Alt text](https://github.com/nusrathbanu-hub/E-Waste-Facility-Locator/blob/63406acaf6610ee173e4b88f2a1008ccce1b2d1b/image4.jpg)
+
+<h2><b>Register Page</b></h2>
+
 ![Alt text]()
