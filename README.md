@@ -1,4 +1,4 @@
-<h1>E-waste Facility Locator</h1>♻
+<h1>E-waste Facility Locator</h1>🌍
 Our E-Waste Management website is dedicated to promoting sustainable practices and raising awareness about the harmful effects of electronic waste. We provide valuable information on the impact of e-waste on the environment.♻
 
 <h2><b>Home Page</b></h2>
@@ -8,3 +8,11 @@ Our E-Waste Management website is dedicated to promoting sustainable practices a
 <h2><b>About Page</b></h2>
 
 ![Alt text](https://github.com/nusrathbanu-hub/E-Waste-Facility-Locator/blob/724592d16dc49569984ee33e25a3efcf1ad5394c/image2.jpg)
+
+<h2><b></b>Services Page</b></h2>
+
+![Alt text](https://github.com/nusrathbanu-hub/E-Waste-Facility-Locator/blob/8f0811ea8e66c53d8124a2dc3b9d420fa9d0dbee/image3.jpg)
+
+<h2><b>Location Page</b></h2>
+
+![Alt text]()
